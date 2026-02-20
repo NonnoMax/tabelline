@@ -11,33 +11,35 @@
         nav ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
         nav a { text-decoration: none; color: #2980b9; font-weight: bold; font-size: 0.9em; }
         .card { background: white; padding: 20px; margin-top: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        h2 { color: #2980b9; border-bottom: 2px solid #eee; padding-bottom: 10px; scroll-margin-top: 20px; }
-        .button { display: inline-block; background-color: #27ae60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 10px 0; }
-        .info-box { background-color: #e8f4fd; border-left: 5px solid #3498db; padding: 15px; margin: 15px 0; }
-        footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #7f8c8d; }
+        h2 { color: #2980b9; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .button { display: inline-block; background: #27ae60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 10px; }
+        .info-box { background: #e1f5fe; border-left: 5px solid #03a9f4; padding: 15px; margin: 20px 0; font-size: 0.9em; }
+        strong { color: #2c3e50; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Tabelline</h1>
-    <p>Manuale Utente Ufficiale</p>
+    <h1>🧮 App Tabelline</h1>
+    <p>Guida Rapida all'Installazione e all'Uso</p>
 </header>
 
 <nav>
     <ul>
-        <li><a href="#installazione">📥 Installazione</a></li>
-        <li><a href="#modalita">🎮 Modalità</a></li>
-        <li><a href="#vocale">🔊 Funzioni Vocali</a></li>
-        <li><a href="#aggiornamenti">🔄 Aggiornamenti</a></li>
-        <li><a href="#documenti">📄 Documenti</a></li>
+        <li><a href="#installazione">Installazione</a></li>
+        <li><a href="#modalita">Modalità</a></li>
+        <li><a href="#vocale">Funzioni Vocali</a></li>
+        <li><a href="#aggiornamenti">Aggiornamenti</a></li>
+        <li><a href="#documenti">Documenti PDF</a></li>
     </ul>
 </nav>
 
 <div id="installazione" class="card">
-    <h2>🚀 Download e Installazione</h2>
-    <p>Link diretto per scaricare l'app:</p>
-    <a href="https://raw.githubusercontent.com/NonnoMax/tabelline/main/tabelline.apk" class="button">Scarica APK</a>
+    <h2>📥 Scarica e Installa</h2>
+    <p>Puoi scaricare l'ultima versione dell'applicazione (file APK) cliccando sul pulsante qui sotto:</p>
+    <a href="https://github.com/NonnoMax/tabelline/raw/main/tabelline.apk" class="button">Scarica APK</a>
     <div class="info-box">
         <strong>Istruzioni:</strong> Durante l'installazione su Android, clicca su <strong>"Installa comunque"</strong> se appare l'avviso di Google Play Protect.
     </div>
@@ -46,9 +48,9 @@
 <div id="modalita" class="card">
     <h2>🎮 Modalità di Gioco</h2>
     <ul>
-        <li><strong>Quiz:</strong> Allenamento misto casuale.</li>
-        <li><strong>Ripasso:</strong> Studio di una tabellina specifica.</li>
-        <li><strong>⚔️ Duello:</strong> Sfida locale per due giocatori. Il gioco termina quando la somma dei punti raggiunge il limite impostato (es. 5, 10 o 20).</li>
+        <li><strong>Quiz:</strong> Allenamento sulle tabelline. Puoi scegliere di esercitarti su una singola tabellina (dall'1 al 10) oppure selezionare la modalità <strong>Mista</strong> per sfidarti su tutte le combinazioni casuali.</li>
+        <li><strong>Ripasso:</strong> Studio assistito di una tabellina specifica per memorizzare i risultati prima del quiz.</li>
+        <li><strong>⚔️ Duello:</strong> Sfida locale per due giocatori su un unico dispositivo.</li>
     </ul>
 </div>
 
@@ -59,18 +61,14 @@
 
 <div id="aggiornamenti" class="card">
     <h2>🔄 Aggiornamenti</h2>
-    <p>Controlla la disponibilità di nuove versioni direttamente dalla sezione <strong>About</strong> dell'app. Il sistema verificherà il codice versione sul Gist remoto.</p>
+    <p>Controlla la disponibilità di nuove versioni direttamente dalla sezione <strong>About</strong> dell'app. Il sistema verificherà automaticamente la presenza di aggiornamenti sul repository GitHub ufficiale.</p>
 </div>
 
 <div id="documenti" class="card">
     <h2>📄 Documentazione PDF</h2>
-    <p>Scarica il manuale completo in formato PDF:</p>
-    <a href="https://github.com/NonnoMax/tabelline/raw/main/LEGGIMI.pdf" style="color: #2980b9; font-weight: bold;">Manuale Utente (PDF)</a>
+    <p>Scarica il manuale completo in formato PDF per la consultazione offline:</p>
+    <a href="https://github.com/NonnoMax/tabelline/raw/main/LEGGIMI.pdf" style="color: #2980b9; font-weight: bold;">Scarica Manuale PDF</a>
 </div>
-
-<footer>
-    <p>© 2026 it.max.tabelline - Sviluppato da NonnoMax per i suoi nipotini.</p>
-</footer>
 
 </body>
 </html>
